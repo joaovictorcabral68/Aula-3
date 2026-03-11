@@ -152,9 +152,51 @@ programa {
     
   }
 }
-´´´
+
+```
 ---
 
+# O Consumo do Automóvel
+
+## Objetivo
+
+>O objetivo desse projeto é calcular o gasto de combustivél pela distância percorrida e mostrar a média de gasto do carro.
+
+---
+
+## Lógica utilizada 
+
+- **Variaveis:** `Inteiro` Utilizei essa variavel para o usuário dar valor à ela que no caso é a distância percorrida por ele e quanto combustivel ele gastou.
+- **Dados de entrada:** `Escreva/Leia` O comando escreva para dar as instruções e os resultados para o usuário e o comando leia para "chamar" a variavel
+- **Operadores:** `=,/` Usei esses operadores para aplicar a fórmula no programa, que no caso é só dividir a distância pelo gasto de combústivel que você terá a média
+
+---
+
+## Resultado
+
+```Portugol
+
+programa {
+  funcao inicio() {
+    inteiro km, litros
+    escreva("Qual foi a distância percorrida?:")
+    leia(km)
+    escreva("Quanto foi gasto de combustivel?:")
+leia(litros)
+escreva("O seu carro gasta em média de: ", km/litros, " Km/l")
+    
+  }
+}
+
+```
+
+---
+
+# Cálculo de Desconto Profissional
+
+## Objetivo
+
+>
 
 
 
