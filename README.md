@@ -64,5 +64,103 @@ escreva("O Biscoito custou o total de: ", bsct*quantidade, "$")
     
   }
 }
+```
+---
+
+# Conversor de Temperatura (Fahrenheit)
+
+## Objetivo
+>O objetivo desse projeto é fazer um conversor de graus celsius para fahrenheit.
 
 ---
+
+## Lógica de programação 
+
+1. O usúario tem que informar a temperatura
+2. O programa lê a temperatura informada
+3. E por meio de uma fórmula faz a conversão
+4. Entrega a temperatura convertida para o usuário
+
+---
+
+## Programa
+
+- **Variaveis:** `Inteiro` Usei essa variavel para o usuário dar valor à ela que no caso é a temperatura desejada.
+- **Dados de entrada:** `Escreva/Leia` O comando escreva para dar as instruções e os resultados para o usuário e o comando leia para "chamar" a variavel
+- **Operadores:** `+,=,*`Usei esses operadores para aplicar a fórmula do fahrenheit no programa, que é: °F = (°C × 1,8) + 32
+
+---
+
+## Resultado 
+
+```Portugol
+
+programa {
+  inteiro temp
+  funcao inicio() {`
+
+  escreva("Qual a temperatura?:")`
+  leia(temp)
+  escreva("A temperatura de ", temp, "° Celsius convertido para fahrenheit é:", (temp*1.8)+32, "°")
+    
+  }
+}
+
+```
+
+---
+
+# Média Ponderada
+
+## Objetivo
+
+>O objetivo desse projeto é somar duas notas com os seus pesos e no final fazer a media ponderada delas.
+
+---
+
+## Lógica utilizada
+
+1. O usuário tem que informar as duas notas separadamente
+2. O programa vai ler essas duas notas
+3. E por meio de uma fórmula que o peso das notas ja está padronizado nela, o programa irá fazer o cálculo
+4. O programa entrega a média ponderada das duas notas informadas
+
+---
+
+## Programa
+
+- **Variaveis:** `Real` Utilizei essa variavel para a saida ou a entrada serem números tanto inteiros quanto decimais, para dar mais opções ao usuário
+- **Dados de entrada:** `Escreva/Leia` O comando escreva para dar as instruções e os resultados para o usuário e o comando leia para "chamar" a variavel
+- **Operadores:** `+,=,*,/`Usei esses operadores para aplicar a fórmula doa média ponderada, que é: A nota A multipilcado pelo peso 1 + a nota B multiplicado pelo peso 2 dividido pela soma dos dois pesos:
+(NotaA*P1+NotaB*P2)/(P1+P2)
+
+---
+
+## Resultado
+
+```Portugol
+
+programa {
+  funcao inicio() {
+    real notaa, notab
+    escreva("Prova A (Peso 4): Qual foi a nota do aluno?:")
+    leia(notaa)
+    escreva("Prova B (Peso 6): Qual foi a nota do aluno?:")
+    leia(notab)
+    escreva("A media ponderada das duas provas foi: ", (notaa*4+notab*6)/(4+6))
+    
+    
+  }
+}
+´´´
+---
+
+
+
+
+
+
+
+
+
+
