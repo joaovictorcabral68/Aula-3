@@ -196,7 +196,50 @@ escreva("O seu carro gasta em média de: ", km/litros, " Km/l")
 
 ## Objetivo
 
->
+>O objetivo desse projeto era criar um programa que fizesse um cálculo de desconto para um e-commerce
+
+---
+
+## Lógica Utilizada
+
+1. O programa pede ao usuário o valor total do produto
+2. O programa pede ao usuário quantos % ele quer dar de desconto nesse produto
+3. O programa lê esses dois valores
+4. O programa faz o cálculo do desconto
+5. E entrega o resultado para o usuário
+
+---
+
+## Programa
+
+- **Variaveis:** `Inteiro` Utilizei essa variavel para a saida ou a entrada serem números inteiros pois assim entrega um resultado já arrendondado para o usuário
+- **Dados de entrada:** `Escreva/Leia` O comando escreva para dar as instruções e os resultados para o usuário e o comando leia para "chamar" a variavel
+- **Operadores:** `*,/` Usei esses operadores para aplicar a fórmula de desconto no programa que é: Valor total * Valor do desconto/100
+
+---
+
+## Resultado
+
+```Portugol
+
+programa {
+inteiro produto, desconto
+ funcao inicio() {
+ escreva("Qual o valor do produto?:")
+ leia(produto)
+ escreva("Qual o valor do desconto que deseja aplicar?:")
+ leia(desconto)
+ escreva("O valor desse produto com o desconto de ", desconto, "% é de:", produto*(desconto/100))
+    
+
+
+    
+  }
+}
+
+```
+---
+
 
 
 
